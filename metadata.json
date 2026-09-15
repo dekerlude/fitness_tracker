@@ -1,0 +1,6 @@
+{
+  "name": "PPL Tracker",
+  "description": "A personal workout tracking and exercise recommendation app for a Push/Pull/Legs split to achieve a lean, athletic physique.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
