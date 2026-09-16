@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Syncopate', sans-serif;
+  
+  --color-primary: #FFFFFF;
+  --color-secondary: #8BA3B8;
+  --color-background: #030712; /* Dark navy base */
+  --color-card: #0B1121; /* Slightly lighter navy for cards */
+  --color-border: rgba(59, 130, 246, 0.15); /* Very subtle blue tint */
+  --color-accent: #3B82F6; /* Electric blue */
+  --color-accent-glow: rgba(59, 130, 246, 0.5); 
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .bg-radial-gradient {
+    background: radial-gradient(circle at top, rgba(11, 23, 49, 1) 0%, rgba(3, 7, 18, 1) 100%);
+  }
+  .glow-active {
+    box-shadow: 0 0 15px var(--color-accent-glow);
+  }
+  .glow-subtle {
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.2);
+  }
+  .border-glass {
+    border: 1px solid var(--color-border);
+  }
+}

@@ -1,0 +1,2565 @@
+[
+  {
+    "id": "incline-barbell-bench-press",
+    "name": "Incline Barbell Bench Press",
+    "day": 1,
+    "order": 1,
+    "category": "upper_chest",
+    "primaryMuscle": "upper_chest",
+    "secondaryMuscles": [
+      "front_delts",
+      "triceps"
+    ],
+    "equipment": "barbell",
+    "sets": 3,
+    "repRange": "6-10",
+    "instructions": [
+      "Set the bench to a moderate incline.",
+      "Lower the bar under control toward the upper chest.",
+      "Press upward while keeping the shoulder blades stable."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "incline-dumbbell-press",
+        "name": "Incline Dumbbell Press",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "smith-machine-incline-press",
+        "name": "Smith Machine Incline Press",
+        "equipment": "smith machine"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "name": "Incline Dumbbell Press",
+    "day": 1,
+    "order": 2,
+    "category": "upper_chest",
+    "primaryMuscle": "upper_chest",
+    "secondaryMuscles": [
+      "front_delts",
+      "triceps"
+    ],
+    "equipment": "dumbbells",
+    "sets": 3,
+    "repRange": "8-12",
+    "instructions": [
+      "Use a moderate incline.",
+      "Lower the dumbbells with control.",
+      "Press up without letting the shoulders roll forward."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "incline-barbell-bench-press",
+        "name": "Incline Barbell Bench Press",
+        "equipment": "barbell"
+      },
+      {
+        "exerciseId": "smith-machine-incline-press",
+        "name": "Smith Machine Incline Press",
+        "equipment": "smith machine"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "low-to-high-cable-fly",
+    "name": "Low-to-High Cable Fly",
+    "day": 1,
+    "order": 3,
+    "category": "upper_chest",
+    "primaryMuscle": "upper_chest",
+    "secondaryMuscles": [
+      "front_delts"
+    ],
+    "equipment": "cable",
+    "sets": 2,
+    "repRange": "10-15",
+    "instructions": [
+      "Set the pulleys low.",
+      "Bring the handles upward and inward toward the upper chest.",
+      "Control the return."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "incline-dumbbell-fly",
+        "name": "Incline Dumbbell Fly",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "incline-dumbbell-press",
+        "name": "Incline Dumbbell Press",
+        "equipment": "dumbbells"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "seated-dumbbell-shoulder-press",
+    "name": "Seated Dumbbell Shoulder Press",
+    "day": 1,
+    "order": 4,
+    "category": "shoulders",
+    "primaryMuscle": "shoulders",
+    "secondaryMuscles": [
+      "triceps",
+      "upper_chest"
+    ],
+    "equipment": "dumbbells",
+    "sets": 3,
+    "repRange": "6-10",
+    "instructions": [
+      "Sit upright with dumbbells at shoulder height.",
+      "Press overhead without excessive lower-back arch.",
+      "Lower under control."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "standing-barbell-overhead-press",
+        "name": "Standing Barbell Overhead Press",
+        "equipment": "barbell"
+      },
+      {
+        "exerciseId": "machine-shoulder-press",
+        "name": "Machine Shoulder Press",
+        "equipment": "machine"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "dumbbell-lateral-raise",
+    "name": "Dumbbell Lateral Raise",
+    "day": 1,
+    "order": 5,
+    "category": "shoulders",
+    "primaryMuscle": "lateral_delts",
+    "secondaryMuscles": [
+      "upper_traps"
+    ],
+    "equipment": "dumbbells",
+    "sets": 3,
+    "repRange": "12-20",
+    "instructions": [
+      "Raise the dumbbells out to the sides.",
+      "Stop around shoulder height.",
+      "Lower slowly and avoid swinging."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "cable-lateral-raise",
+        "name": "Cable Lateral Raise",
+        "equipment": "cable"
+      },
+      {
+        "exerciseId": "lateral-raise-machine",
+        "name": "Lateral Raise Machine",
+        "equipment": "machine"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "cable-y-raise",
+    "name": "Cable Y-Raise",
+    "day": 1,
+    "order": 6,
+    "category": "shoulders",
+    "primaryMuscle": "rear_delts",
+    "secondaryMuscles": [
+      "lower_traps",
+      "serratus"
+    ],
+    "equipment": "cable",
+    "sets": 2,
+    "repRange": "12-15",
+    "instructions": [
+      "Set the cable low.",
+      "Raise the arms diagonally into a Y shape.",
+      "Keep the movement controlled."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "incline-bench-y-raise",
+        "name": "Incline Bench Y-Raise",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "dumbbell-rear-delt-y-raise",
+        "name": "Dumbbell Rear-Delt/Y-Raise",
+        "equipment": "dumbbells"
+      }
+    ],
+    "equipmentNote": "A low cable is common in commercial gyms; incline dumbbell Y-raises are the no-cable fallback."
+  },
+  {
+    "id": "cable-serratus-punch",
+    "name": "Cable Serratus Punch",
+    "day": 1,
+    "order": 7,
+    "category": "serratus",
+    "primaryMuscle": "serratus",
+    "secondaryMuscles": [
+      "obliques",
+      "front_delts"
+    ],
+    "equipment": "cable",
+    "sets": 2,
+    "repRange": "12-15",
+    "instructions": [
+      "Stand side-on to a cable.",
+      "Reach forward by protracting the shoulder blade.",
+      "Return slowly without rotating the torso."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "push-up-plus",
+        "name": "Push-Up Plus",
+        "equipment": "bodyweight"
+      },
+      {
+        "exerciseId": "dumbbell-serratus-punch",
+        "name": "Dumbbell Serratus Punch",
+        "equipment": "dumbbells"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "overhead-cable-triceps-extension",
+    "name": "Overhead Cable Triceps Extension",
+    "day": 1,
+    "order": 8,
+    "category": "triceps",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": [
+      "long_head_triceps"
+    ],
+    "equipment": "cable",
+    "sets": 2,
+    "repRange": "10-15",
+    "instructions": [
+      "Face away from the cable with elbows pointed forward.",
+      "Extend the elbows.",
+      "Return under control."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "dumbbell-overhead-triceps-extension",
+        "name": "Dumbbell Overhead Triceps Extension",
+        "equipment": "dumbbell"
+      },
+      {
+        "exerciseId": "ez-bar-overhead-triceps-extension",
+        "name": "EZ-Bar Overhead Triceps Extension",
+        "equipment": "ez bar"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "cable-triceps-pushdown",
+    "name": "Cable Triceps Pushdown",
+    "day": 1,
+    "order": 9,
+    "category": "triceps",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "equipment": "cable",
+    "sets": 2,
+    "repRange": "10-15",
+    "instructions": [
+      "Keep elbows close to the torso.",
+      "Push the handle down until the elbows are extended.",
+      "Control the return."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "ez-bar-skull-crusher",
+        "name": "EZ-Bar Skull Crusher",
+        "equipment": "ez bar"
+      },
+      {
+        "exerciseId": "close-grip-bench-press",
+        "name": "Close-Grip Bench Press",
+        "equipment": "barbell"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "pull-up",
+    "name": "Pull-Up",
+    "day": 2,
+    "order": 1,
+    "category": "lats",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back",
+      "forearms"
+    ],
+    "equipment": "pull-up bar",
+    "sets": 3,
+    "repRange": "6-10",
+    "instructions": [
+      "Start from a controlled hang.",
+      "Pull the chest toward the bar while driving the elbows down.",
+      "Lower under control."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "lat-pulldown",
+        "name": "Lat Pulldown",
+        "equipment": "cable machine"
+      },
+      {
+        "exerciseId": "assisted-pull-up",
+        "name": "Assisted Pull-Up",
+        "equipment": "assisted pull-up machine"
+      }
+    ],
+    "equipmentNote": "Common in gyms with a pull-up station; use lat pulldown or assisted pull-up if unavailable."
+  },
+  {
+    "id": "lat-pulldown",
+    "name": "Lat Pulldown",
+    "day": 2,
+    "order": 2,
+    "category": "lats",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "cable machine",
+    "sets": 3,
+    "repRange": "8-12",
+    "instructions": [
+      "Brace the torso.",
+      "Pull the bar toward the upper chest.",
+      "Control the upward movement."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "pull-up",
+        "name": "Pull-Up",
+        "equipment": "pull-up bar"
+      },
+      {
+        "exerciseId": "band-lat-pulldown",
+        "name": "Band Lat Pulldown",
+        "equipment": "resistance band"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "single-arm-cable-lat-pulldown",
+    "name": "Single-Arm Cable Lat Pulldown",
+    "day": 2,
+    "order": 3,
+    "category": "lats",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "serratus"
+    ],
+    "equipment": "cable",
+    "sets": 2,
+    "repRange": "10-15",
+    "instructions": [
+      "Reach overhead with one arm.",
+      "Drive the elbow down toward the hip.",
+      "Return slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "single-arm-dumbbell-row",
+        "name": "Single-Arm Dumbbell Row",
+        "equipment": "dumbbell"
+      },
+      {
+        "exerciseId": "single-arm-lat-pulldown",
+        "name": "Single-Arm Lat Pulldown",
+        "equipment": "cable"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "chest-supported-row",
+    "name": "Chest-Supported Row",
+    "day": 2,
+    "order": 4,
+    "category": "upper_back",
+    "primaryMuscle": "upper_back",
+    "secondaryMuscles": [
+      "rear_delts",
+      "lats",
+      "biceps"
+    ],
+    "equipment": "machine or dumbbells",
+    "sets": 3,
+    "repRange": "8-12",
+    "instructions": [
+      "Keep the chest supported.",
+      "Pull the handles toward the torso.",
+      "Pause briefly and lower with control."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "seated-cable-row",
+        "name": "Seated Cable Row",
+        "equipment": "cable"
+      },
+      {
+        "exerciseId": "one-arm-dumbbell-row",
+        "name": "One-Arm Dumbbell Row",
+        "equipment": "dumbbell"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "seated-cable-row",
+    "name": "Seated Cable Row",
+    "day": 2,
+    "order": 5,
+    "category": "upper_back",
+    "primaryMuscle": "upper_back",
+    "secondaryMuscles": [
+      "lats",
+      "biceps"
+    ],
+    "equipment": "cable",
+    "sets": 2,
+    "repRange": "10-12",
+    "instructions": [
+      "Keep the spine neutral.",
+      "Pull the handle toward the lower ribs.",
+      "Control the reach forward."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "chest-supported-dumbbell-row",
+        "name": "Chest-Supported Dumbbell Row",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "barbell-row",
+        "name": "Barbell Row",
+        "equipment": "barbell"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "face-pull",
+    "name": "Face Pull",
+    "day": 2,
+    "order": 6,
+    "category": "upper_back",
+    "primaryMuscle": "rear_delts",
+    "secondaryMuscles": [
+      "upper_back",
+      "rotator_cuff"
+    ],
+    "equipment": "cable rope",
+    "sets": 2,
+    "repRange": "12-20",
+    "instructions": [
+      "Pull the rope toward the face.",
+      "Rotate the hands outward as the elbows move back.",
+      "Return slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "reverse-dumbbell-fly",
+        "name": "Reverse Dumbbell Fly",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "band-face-pull",
+        "name": "Band Face Pull",
+        "equipment": "resistance band"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "incline-dumbbell-curl",
+    "name": "Incline Dumbbell Curl",
+    "day": 2,
+    "order": 7,
+    "category": "biceps",
+    "primaryMuscle": "biceps",
+    "secondaryMuscles": [
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": "dumbbells",
+    "sets": 3,
+    "repRange": "8-12",
+    "instructions": [
+      "Let the arms hang naturally behind the torso.",
+      "Curl without moving the elbows forward.",
+      "Lower slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "standing-dumbbell-curl",
+        "name": "Standing Dumbbell Curl",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "ez-bar-curl",
+        "name": "EZ-Bar Curl",
+        "equipment": "ez bar"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer Curl",
+    "day": 2,
+    "order": 8,
+    "category": "arms",
+    "primaryMuscle": "brachialis",
+    "secondaryMuscles": [
+      "biceps",
+      "forearms"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "10-15",
+    "instructions": [
+      "Keep a neutral grip.",
+      "Curl the dumbbells without swinging.",
+      "Lower under control."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "cross-body-hammer-curl",
+        "name": "Cross-Body Hammer Curl",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "rope-hammer-curl",
+        "name": "Rope Hammer Curl",
+        "equipment": "cable"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "reverse-curl",
+    "name": "Reverse Curl",
+    "day": 2,
+    "order": 9,
+    "category": "forearms",
+    "primaryMuscle": "forearms",
+    "secondaryMuscles": [
+      "brachioradialis",
+      "biceps"
+    ],
+    "equipment": "ez bar",
+    "sets": 2,
+    "repRange": "10-15",
+    "instructions": [
+      "Use an overhand grip.",
+      "Curl while keeping the wrists neutral.",
+      "Lower slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "reverse-ez-bar-curl",
+        "name": "Reverse EZ-Bar Curl",
+        "equipment": "ez bar"
+      },
+      {
+        "exerciseId": "reverse-dumbbell-curl",
+        "name": "Reverse Dumbbell Curl",
+        "equipment": "dumbbells"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "wrist-curl",
+    "name": "Wrist Curl",
+    "day": 2,
+    "order": 10,
+    "category": "forearms",
+    "primaryMuscle": "forearms",
+    "secondaryMuscles": [
+      "wrist_flexors"
+    ],
+    "equipment": "dumbbell or barbell",
+    "sets": 2,
+    "repRange": "15-20",
+    "instructions": [
+      "Rest the forearms on a bench or thighs.",
+      "Curl the wrists through a comfortable range.",
+      "Avoid moving the forearms."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "behind-the-back-barbell-wrist-curl",
+        "name": "Behind-the-Back Barbell Wrist Curl",
+        "equipment": "barbell"
+      },
+      {
+        "exerciseId": "dumbbell-wrist-curl",
+        "name": "Dumbbell Wrist Curl",
+        "equipment": "dumbbells"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "back-squat",
+    "name": "Back Squat",
+    "day": 3,
+    "order": 1,
+    "category": "quads",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "barbell",
+    "sets": 3,
+    "repRange": "6-10",
+    "instructions": [
+      "Brace the trunk before descending.",
+      "Lower while keeping the knees tracking over the feet.",
+      "Drive through the floor to stand."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "goblet-squat",
+        "name": "Goblet Squat",
+        "equipment": "dumbbell"
+      },
+      {
+        "exerciseId": "leg-press",
+        "name": "Leg Press",
+        "equipment": "leg press"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "leg-press",
+    "name": "Leg Press",
+    "day": 3,
+    "order": 2,
+    "category": "quads",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "leg press",
+    "sets": 3,
+    "repRange": "8-12",
+    "instructions": [
+      "Place the feet comfortably on the platform.",
+      "Lower the sled with control.",
+      "Press without locking the knees aggressively."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "back-squat",
+        "name": "Back Squat",
+        "equipment": "barbell"
+      },
+      {
+        "exerciseId": "goblet-squat",
+        "name": "Goblet Squat",
+        "equipment": "dumbbell"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "bulgarian-split-squat",
+    "name": "Bulgarian Split Squat",
+    "day": 3,
+    "order": 3,
+    "category": "quads",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-12 each leg",
+    "instructions": [
+      "Place the rear foot on a bench.",
+      "Lower the front leg under control.",
+      "Drive through the front foot to stand."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "dumbbell-reverse-lunge",
+        "name": "Dumbbell Reverse Lunge",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "walking-lunge",
+        "name": "Walking Lunge",
+        "equipment": "dumbbells"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "leg-extension",
+    "name": "Leg Extension",
+    "day": 3,
+    "order": 4,
+    "category": "quads",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "sets": 2,
+    "repRange": "12-15",
+    "instructions": [
+      "Align the knee with the machine pivot.",
+      "Extend the knees smoothly.",
+      "Lower under control."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "spanish-squat",
+        "name": "Spanish Squat",
+        "equipment": "resistance band"
+      },
+      {
+        "exerciseId": "heel-elevated-goblet-squat",
+        "name": "Heel-Elevated Goblet Squat",
+        "equipment": "dumbbell"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "standing-calf-raise",
+    "name": "Standing Calf Raise",
+    "day": 3,
+    "order": 5,
+    "category": "calves",
+    "primaryMuscle": "calves",
+    "secondaryMuscles": [
+      "soleus"
+    ],
+    "equipment": "machine",
+    "sets": 3,
+    "repRange": "10-15",
+    "instructions": [
+      "Start with a comfortable stretch.",
+      "Rise onto the balls of the feet.",
+      "Pause briefly at the top and lower slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "dumbbell-standing-calf-raise",
+        "name": "Dumbbell Standing Calf Raise",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "leg-press-calf-raise",
+        "name": "Leg Press Calf Raise",
+        "equipment": "leg press"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "seated-calf-raise",
+    "name": "Seated Calf Raise",
+    "day": 3,
+    "order": 6,
+    "category": "calves",
+    "primaryMuscle": "soleus",
+    "secondaryMuscles": [
+      "gastrocnemius"
+    ],
+    "equipment": "machine",
+    "sets": 2,
+    "repRange": "12-20",
+    "instructions": [
+      "Keep the knees secured under the pad.",
+      "Lower into a controlled stretch.",
+      "Raise the heels and squeeze the calves."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "dumbbell-seated-calf-raise",
+        "name": "Dumbbell Seated Calf Raise",
+        "equipment": "dumbbell"
+      },
+      {
+        "exerciseId": "leg-press-calf-raise",
+        "name": "Leg Press Calf Raise",
+        "equipment": "leg press"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "cable-crunch",
+    "name": "Cable Crunch",
+    "day": 3,
+    "order": 7,
+    "category": "abs",
+    "primaryMuscle": "abs",
+    "secondaryMuscles": [
+      "rectus_abdominis"
+    ],
+    "equipment": "cable rope",
+    "sets": 3,
+    "repRange": "10-15",
+    "instructions": [
+      "Kneel facing the cable.",
+      "Curl the rib cage toward the pelvis.",
+      "Avoid simply hinging at the hips."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "weighted-crunch",
+        "name": "Weighted Crunch",
+        "equipment": "plate"
+      },
+      {
+        "exerciseId": "ab-wheel-rollout",
+        "name": "Ab Wheel Rollout",
+        "equipment": "ab wheel"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "hanging-leg-raise",
+    "name": "Hanging Leg Raise",
+    "day": 3,
+    "order": 8,
+    "category": "abs",
+    "primaryMuscle": "abs",
+    "secondaryMuscles": [
+      "hip_flexors"
+    ],
+    "equipment": "pull-up bar",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Hang with control.",
+      "Posteriorly tilt the pelvis as the legs rise.",
+      "Lower without swinging."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "captains-chair-knee-raise",
+        "name": "Captain's Chair Knee Raise",
+        "equipment": "captain's chair"
+      },
+      {
+        "exerciseId": "reverse-crunch",
+        "name": "Reverse Crunch",
+        "equipment": "bodyweight"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "incline-dumbbell-press-b",
+    "name": "Incline Dumbbell Press",
+    "day": 5,
+    "order": 1,
+    "category": "upper_chest",
+    "primaryMuscle": "upper_chest",
+    "secondaryMuscles": [
+      "front_delts",
+      "triceps"
+    ],
+    "equipment": "dumbbells",
+    "sets": 3,
+    "repRange": "8-12",
+    "instructions": [
+      "Use a moderate incline.",
+      "Lower the dumbbells with control.",
+      "Press while keeping the shoulder blades stable."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "incline-barbell-bench-press",
+        "name": "Incline Barbell Bench Press",
+        "equipment": "barbell"
+      },
+      {
+        "exerciseId": "smith-machine-incline-press",
+        "name": "Smith Machine Incline Press",
+        "equipment": "smith machine"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "machine-chest-press",
+    "name": "Machine Chest Press",
+    "day": 5,
+    "order": 2,
+    "category": "upper_chest",
+    "primaryMuscle": "upper_chest",
+    "secondaryMuscles": [
+      "triceps",
+      "front_delts"
+    ],
+    "equipment": "machine",
+    "sets": 2,
+    "repRange": "8-12",
+    "instructions": [
+      "Set the seat so the handles align with the mid-to-upper chest.",
+      "Press smoothly.",
+      "Return under control."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "dumbbell-bench-press",
+        "name": "Dumbbell Bench Press",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "barbell-bench-press",
+        "name": "Barbell Bench Press",
+        "equipment": "barbell"
+      }
+    ],
+    "equipmentNote": "Chest-press machines vary between gyms; dumbbell or barbell pressing is the fallback."
+  },
+  {
+    "id": "chest-supported-row-b",
+    "name": "Chest-Supported Row",
+    "day": 5,
+    "order": 3,
+    "category": "upper_back",
+    "primaryMuscle": "upper_back",
+    "secondaryMuscles": [
+      "rear_delts",
+      "lats",
+      "biceps"
+    ],
+    "equipment": "machine or dumbbells",
+    "sets": 3,
+    "repRange": "8-12",
+    "instructions": [
+      "Keep the chest supported.",
+      "Drive the elbows back.",
+      "Lower slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "seated-cable-row",
+        "name": "Seated Cable Row",
+        "equipment": "cable"
+      },
+      {
+        "exerciseId": "one-arm-dumbbell-row",
+        "name": "One-Arm Dumbbell Row",
+        "equipment": "dumbbell"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "lat-pulldown-b",
+    "name": "Lat Pulldown",
+    "day": 5,
+    "order": 4,
+    "category": "lats",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "cable machine",
+    "sets": 2,
+    "repRange": "10-12",
+    "instructions": [
+      "Pull toward the upper chest.",
+      "Keep the torso stable.",
+      "Control the return."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "pull-up",
+        "name": "Pull-Up",
+        "equipment": "pull-up bar"
+      },
+      {
+        "exerciseId": "one-arm-dumbbell-row",
+        "name": "One-Arm Dumbbell Row",
+        "equipment": "dumbbell"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "cable-lateral-raise",
+    "name": "Cable Lateral Raise",
+    "day": 5,
+    "order": 5,
+    "category": "shoulders",
+    "primaryMuscle": "lateral_delts",
+    "secondaryMuscles": [
+      "upper_traps"
+    ],
+    "equipment": "cable",
+    "sets": 3,
+    "repRange": "12-20",
+    "instructions": [
+      "Raise the arm out to the side.",
+      "Lead with the elbow.",
+      "Lower slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "name": "Dumbbell Lateral Raise",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "lateral-raise-machine",
+        "name": "Lateral Raise Machine",
+        "equipment": "machine"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "rear-delt-cable-fly",
+    "name": "Rear Delt Cable Fly",
+    "day": 5,
+    "order": 6,
+    "category": "shoulders",
+    "primaryMuscle": "rear_delts",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "cable",
+    "sets": 2,
+    "repRange": "12-20",
+    "instructions": [
+      "Set the cables around shoulder height.",
+      "Move the arms outward and back.",
+      "Avoid shrugging."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "reverse-dumbbell-fly",
+        "name": "Reverse Dumbbell Fly",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "reverse-pec-deck",
+        "name": "Reverse Pec Deck",
+        "equipment": "machine"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "ez-bar-curl",
+    "name": "EZ-Bar Curl",
+    "day": 5,
+    "order": 7,
+    "category": "biceps",
+    "primaryMuscle": "biceps",
+    "secondaryMuscles": [
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": "ez bar",
+    "sets": 3,
+    "repRange": "8-12",
+    "instructions": [
+      "Keep the elbows near the torso.",
+      "Curl without swinging.",
+      "Lower under control."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "barbell-curl",
+        "name": "Barbell Curl",
+        "equipment": "barbell"
+      },
+      {
+        "exerciseId": "dumbbell-curl",
+        "name": "Dumbbell Curl",
+        "equipment": "dumbbells"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "triceps-pushdown-b",
+    "name": "Triceps Pushdown",
+    "day": 5,
+    "order": 8,
+    "category": "triceps",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "equipment": "cable",
+    "sets": 3,
+    "repRange": "10-15",
+    "instructions": [
+      "Keep the elbows fixed.",
+      "Extend the elbows fully without forcing the lockout.",
+      "Return slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "overhead-dumbbell-triceps-extension",
+        "name": "Overhead Dumbbell Triceps Extension",
+        "equipment": "dumbbell"
+      },
+      {
+        "exerciseId": "close-grip-bench-press",
+        "name": "Close-Grip Bench Press",
+        "equipment": "barbell"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "romanian-deadlift",
+    "name": "Romanian Deadlift",
+    "day": 6,
+    "order": 1,
+    "category": "hamstrings",
+    "primaryMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes",
+      "erector_spinae"
+    ],
+    "equipment": "barbell",
+    "sets": 3,
+    "repRange": "6-10",
+    "instructions": [
+      "Hinge at the hips while keeping the spine neutral.",
+      "Lower until the hamstrings are strongly loaded.",
+      "Drive the hips forward to stand."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "dumbbell-romanian-deadlift",
+        "name": "Dumbbell Romanian Deadlift",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "barbell-good-morning",
+        "name": "Barbell Good Morning",
+        "equipment": "barbell"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "lying-leg-curl",
+    "name": "Lying Leg Curl",
+    "day": 6,
+    "order": 2,
+    "category": "hamstrings",
+    "primaryMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "calves"
+    ],
+    "equipment": "machine",
+    "sets": 3,
+    "repRange": "8-12",
+    "instructions": [
+      "Align the knees with the machine pivot.",
+      "Curl the heels toward the glutes.",
+      "Lower under control."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "seated-leg-curl",
+        "name": "Seated Leg Curl",
+        "equipment": "machine"
+      },
+      {
+        "exerciseId": "dumbbell-leg-curl",
+        "name": "Dumbbell Leg Curl",
+        "equipment": "dumbbell"
+      }
+    ],
+    "equipmentNote": "Lying and seated curl machines vary by gym; use whichever is available."
+  },
+  {
+    "id": "seated-leg-curl",
+    "name": "Seated Leg Curl",
+    "day": 6,
+    "order": 3,
+    "category": "hamstrings",
+    "primaryMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "calves"
+    ],
+    "equipment": "machine",
+    "sets": 2,
+    "repRange": "10-15",
+    "instructions": [
+      "Set the pad securely above the ankles.",
+      "Curl the legs down and back.",
+      "Return slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "lying-leg-curl",
+        "name": "Lying Leg Curl",
+        "equipment": "machine"
+      },
+      {
+        "exerciseId": "dumbbell-leg-curl",
+        "name": "Dumbbell Leg Curl",
+        "equipment": "dumbbell"
+      }
+    ],
+    "equipmentNote": "Seated and lying curl machines vary by gym; either is a suitable hamstring-curl pattern."
+  },
+  {
+    "id": "hack-squat",
+    "name": "Hack Squat",
+    "day": 6,
+    "order": 4,
+    "category": "quads",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "hack squat machine",
+    "sets": 2,
+    "repRange": "8-12",
+    "instructions": [
+      "Brace against the pads.",
+      "Lower with control while knees track over the feet.",
+      "Drive through the platform to stand."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "back-squat",
+        "name": "Back Squat",
+        "equipment": "barbell"
+      },
+      {
+        "exerciseId": "leg-press",
+        "name": "Leg Press",
+        "equipment": "leg press"
+      }
+    ],
+    "equipmentNote": "Hack squat machines are common but not universal; leg press or back squat is the preferred fallback."
+  },
+  {
+    "id": "walking-lunge",
+    "name": "Walking Lunge",
+    "day": 6,
+    "order": 5,
+    "category": "legs",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "10-14 each leg",
+    "instructions": [
+      "Take a controlled step forward.",
+      "Lower until both knees are comfortably bent.",
+      "Drive through the front foot and step through."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "dumbbell-reverse-lunge",
+        "name": "Dumbbell Reverse Lunge",
+        "equipment": "dumbbells"
+      },
+      {
+        "exerciseId": "bulgarian-split-squat",
+        "name": "Bulgarian Split Squat",
+        "equipment": "dumbbells"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "seated-calf-raise-b",
+    "name": "Seated Calf Raise",
+    "day": 6,
+    "order": 6,
+    "category": "calves",
+    "primaryMuscle": "soleus",
+    "secondaryMuscles": [
+      "gastrocnemius"
+    ],
+    "equipment": "machine",
+    "sets": 3,
+    "repRange": "12-20",
+    "instructions": [
+      "Use a full comfortable range.",
+      "Pause at the top.",
+      "Lower into a controlled stretch."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "standing-calf-raise",
+        "name": "Standing Calf Raise",
+        "equipment": "machine"
+      },
+      {
+        "exerciseId": "dumbbell-seated-calf-raise",
+        "name": "Dumbbell Seated Calf Raise",
+        "equipment": "dumbbells"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "standing-calf-raise-b",
+    "name": "Standing Calf Raise",
+    "day": 6,
+    "order": 7,
+    "category": "calves",
+    "primaryMuscle": "calves",
+    "secondaryMuscles": [
+      "soleus"
+    ],
+    "equipment": "machine",
+    "sets": 2,
+    "repRange": "10-15",
+    "instructions": [
+      "Rise smoothly onto the toes.",
+      "Pause at the top.",
+      "Lower slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "seated-calf-raise",
+        "name": "Seated Calf Raise",
+        "equipment": "machine"
+      },
+      {
+        "exerciseId": "leg-press-calf-raise",
+        "name": "Leg Press Calf Raise",
+        "equipment": "leg press"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "ab-wheel-rollout",
+    "name": "Ab Wheel Rollout",
+    "day": 6,
+    "order": 8,
+    "category": "abs",
+    "primaryMuscle": "abs",
+    "secondaryMuscles": [
+      "serratus",
+      "obliques"
+    ],
+    "equipment": "ab wheel",
+    "sets": 2,
+    "repRange": "6-12",
+    "instructions": [
+      "Brace the abdomen before rolling out.",
+      "Extend only as far as you can control.",
+      "Pull back using the trunk without letting the lower back sag."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "cable-crunch",
+        "name": "Cable Crunch",
+        "equipment": "cable"
+      },
+      {
+        "exerciseId": "weighted-crunch",
+        "name": "Weighted Crunch",
+        "equipment": "plate"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "cable-crunch-b",
+    "name": "Cable Crunch",
+    "day": 6,
+    "order": 9,
+    "category": "abs",
+    "primaryMuscle": "abs",
+    "secondaryMuscles": [
+      "rectus_abdominis"
+    ],
+    "equipment": "cable rope",
+    "sets": 2,
+    "repRange": "10-15",
+    "instructions": [
+      "Brace the trunk.",
+      "Curl the rib cage toward the pelvis.",
+      "Return slowly."
+    ],
+    "gymAvailability": "primary",
+    "alternatives": [
+      {
+        "exerciseId": "weighted-crunch",
+        "name": "Weighted Crunch",
+        "equipment": "plate"
+      },
+      {
+        "exerciseId": "ab-wheel-rollout",
+        "name": "Ab Wheel Rollout",
+        "equipment": "ab wheel"
+      }
+    ],
+    "equipmentNote": "Primary exercise uses common commercial-gym equipment; use an alternative if the exact setup is unavailable."
+  },
+  {
+    "id": "assisted-pull-up",
+    "name": "Assisted Pull-Up",
+    "day": null,
+    "order": null,
+    "category": "lats",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "assisted pull-up machine",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set the body in a stable position.",
+      "Pull through the elbows while keeping the torso controlled.",
+      "Return slowly to the starting position."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "band-face-pull",
+    "name": "Band Face Pull",
+    "day": null,
+    "order": null,
+    "category": "rear_delts",
+    "primaryMuscle": "rear_delts",
+    "secondaryMuscles": [
+      "upper_back",
+      "rotator_cuff"
+    ],
+    "equipment": "resistance band",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set the body in a stable position.",
+      "Pull through the elbows while keeping the torso controlled.",
+      "Return slowly to the starting position."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "band-lat-pulldown",
+    "name": "Band Lat Pulldown",
+    "day": null,
+    "order": null,
+    "category": "lats",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "equipment": "resistance band",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set the body in a stable position.",
+      "Pull through the elbows while keeping the torso controlled.",
+      "Return slowly to the starting position."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "barbell-bench-press",
+    "name": "Barbell Bench Press",
+    "day": null,
+    "order": null,
+    "category": "chest",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": [
+      "triceps",
+      "front_delts"
+    ],
+    "equipment": "barbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "barbell-curl",
+    "name": "Barbell Curl",
+    "day": null,
+    "order": null,
+    "category": "biceps",
+    "primaryMuscle": "biceps",
+    "secondaryMuscles": [
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": "barbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the elbows controlled and avoid swinging.",
+      "Curl the resistance through a comfortable range.",
+      "Lower slowly and maintain tension."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "barbell-good-morning",
+    "name": "Barbell Good Morning",
+    "day": null,
+    "order": null,
+    "category": "hamstrings",
+    "primaryMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes",
+      "erector_spinae"
+    ],
+    "equipment": "barbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the trunk and keep the spine neutral.",
+      "Hinge through the hips while maintaining control.",
+      "Drive the hips forward to return to standing."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "barbell-row",
+    "name": "Barbell Row",
+    "day": null,
+    "order": null,
+    "category": "upper_back",
+    "primaryMuscle": "upper_back",
+    "secondaryMuscles": [
+      "lats",
+      "biceps"
+    ],
+    "equipment": "barbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the torso and keep the spine neutral.",
+      "Pull the resistance toward the torso while driving the elbows back.",
+      "Lower the resistance under control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "behind-the-back-barbell-wrist-curl",
+    "name": "Behind-the-Back Barbell Wrist Curl",
+    "day": null,
+    "order": null,
+    "category": "forearms",
+    "primaryMuscle": "forearms",
+    "secondaryMuscles": [
+      "wrist_flexors"
+    ],
+    "equipment": "barbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the forearms stable.",
+      "Move primarily through the wrists.",
+      "Return slowly and avoid excessive range."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "captains-chair-knee-raise",
+    "name": "Captain's Chair Knee Raise",
+    "day": null,
+    "order": null,
+    "category": "abs",
+    "primaryMuscle": "abs",
+    "secondaryMuscles": [
+      "hip_flexors"
+    ],
+    "equipment": "captain's chair",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the abdomen before starting.",
+      "Move through a controlled range without momentum.",
+      "Return slowly while maintaining trunk control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "chest-supported-dumbbell-row",
+    "name": "Chest-Supported Dumbbell Row",
+    "day": null,
+    "order": null,
+    "category": "upper_back",
+    "primaryMuscle": "upper_back",
+    "secondaryMuscles": [
+      "lats",
+      "rear_delts",
+      "biceps"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the torso and keep the spine neutral.",
+      "Pull the resistance toward the torso while driving the elbows back.",
+      "Lower the resistance under control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "close-grip-bench-press",
+    "name": "Close-Grip Bench Press",
+    "day": null,
+    "order": null,
+    "category": "triceps",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": [
+      "chest",
+      "front_delts"
+    ],
+    "equipment": "barbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "cross-body-hammer-curl",
+    "name": "Cross-Body Hammer Curl",
+    "day": null,
+    "order": null,
+    "category": "brachialis",
+    "primaryMuscle": "brachialis",
+    "secondaryMuscles": [
+      "biceps",
+      "forearms"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the elbows controlled and avoid swinging.",
+      "Curl the resistance through a comfortable range.",
+      "Lower slowly and maintain tension."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-bench-press",
+    "name": "Dumbbell Bench Press",
+    "day": null,
+    "order": null,
+    "category": "chest",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": [
+      "triceps",
+      "front_delts"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-curl",
+    "name": "Dumbbell Curl",
+    "day": null,
+    "order": null,
+    "category": "biceps",
+    "primaryMuscle": "biceps",
+    "secondaryMuscles": [
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the elbows controlled and avoid swinging.",
+      "Curl the resistance through a comfortable range.",
+      "Lower slowly and maintain tension."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-leg-curl",
+    "name": "Dumbbell Leg Curl",
+    "day": null,
+    "order": null,
+    "category": "hamstrings",
+    "primaryMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "calves"
+    ],
+    "equipment": "dumbbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the elbows controlled and avoid swinging.",
+      "Curl the resistance through a comfortable range.",
+      "Lower slowly and maintain tension."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-overhead-triceps-extension",
+    "name": "Dumbbell Overhead Triceps Extension",
+    "day": null,
+    "order": null,
+    "category": "triceps",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": [
+      "long_head_triceps"
+    ],
+    "equipment": "dumbbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-rear-delt-y-raise",
+    "name": "Dumbbell Rear-Delt/Y-Raise",
+    "day": null,
+    "order": null,
+    "category": "rear_delts",
+    "primaryMuscle": "rear_delts",
+    "secondaryMuscles": [
+      "lower_traps",
+      "upper_back"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Use a controlled range of motion.",
+      "Raise the resistance without swinging or shrugging.",
+      "Lower slowly."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-reverse-lunge",
+    "name": "Dumbbell Reverse Lunge",
+    "day": null,
+    "order": null,
+    "category": "quads",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Take a controlled step into the movement.",
+      "Lower under control while keeping the front knee aligned with the foot.",
+      "Drive through the working leg to return."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-romanian-deadlift",
+    "name": "Dumbbell Romanian Deadlift",
+    "day": null,
+    "order": null,
+    "category": "hamstrings",
+    "primaryMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes",
+      "erector_spinae"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the trunk and keep the spine neutral.",
+      "Hinge through the hips while maintaining control.",
+      "Drive the hips forward to return to standing."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-seated-calf-raise",
+    "name": "Dumbbell Seated Calf Raise",
+    "day": null,
+    "order": null,
+    "category": "soleus",
+    "primaryMuscle": "soleus",
+    "secondaryMuscles": [
+      "gastrocnemius"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Lower into a comfortable stretch.",
+      "Rise onto the balls of the feet.",
+      "Pause briefly at the top and lower slowly."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-serratus-punch",
+    "name": "Dumbbell Serratus Punch",
+    "day": null,
+    "order": null,
+    "category": "serratus",
+    "primaryMuscle": "serratus",
+    "secondaryMuscles": [
+      "front_delts"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the torso stable.",
+      "Reach or protract the shoulder blades through a controlled range.",
+      "Return without rotating the torso."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-standing-calf-raise",
+    "name": "Dumbbell Standing Calf Raise",
+    "day": null,
+    "order": null,
+    "category": "calves",
+    "primaryMuscle": "calves",
+    "secondaryMuscles": [
+      "soleus"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Lower into a comfortable stretch.",
+      "Rise onto the balls of the feet.",
+      "Pause briefly at the top and lower slowly."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-wrist-curl",
+    "name": "Dumbbell Wrist Curl",
+    "day": null,
+    "order": null,
+    "category": "forearms",
+    "primaryMuscle": "forearms",
+    "secondaryMuscles": [
+      "wrist_flexors"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the forearms stable.",
+      "Move primarily through the wrists.",
+      "Return slowly and avoid excessive range."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "ez-bar-overhead-triceps-extension",
+    "name": "EZ-Bar Overhead Triceps Extension",
+    "day": null,
+    "order": null,
+    "category": "triceps",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": [
+      "long_head_triceps"
+    ],
+    "equipment": "ez bar",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "ez-bar-skull-crusher",
+    "name": "EZ-Bar Skull Crusher",
+    "day": null,
+    "order": null,
+    "category": "triceps",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": [
+      "chest"
+    ],
+    "equipment": "ez bar",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "goblet-squat",
+    "name": "Goblet Squat",
+    "day": null,
+    "order": null,
+    "category": "quads",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "dumbbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the trunk and keep the feet stable.",
+      "Lower under control while the knees track over the feet.",
+      "Drive through the floor to return to standing."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "heel-elevated-goblet-squat",
+    "name": "Heel-Elevated Goblet Squat",
+    "day": null,
+    "order": null,
+    "category": "quads",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "dumbbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the trunk and keep the feet stable.",
+      "Lower under control while the knees track over the feet.",
+      "Drive through the floor to return to standing."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "incline-bench-y-raise",
+    "name": "Incline Bench Y-Raise",
+    "day": null,
+    "order": null,
+    "category": "rear_delts",
+    "primaryMuscle": "rear_delts",
+    "secondaryMuscles": [
+      "lower_traps",
+      "serratus"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Use a controlled range of motion.",
+      "Raise the resistance without swinging or shrugging.",
+      "Lower slowly."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "incline-dumbbell-fly",
+    "name": "Incline Dumbbell Fly",
+    "day": null,
+    "order": null,
+    "category": "upper_chest",
+    "primaryMuscle": "upper_chest",
+    "secondaryMuscles": [
+      "front_delts"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep a slight bend in the elbows.",
+      "Move the arms through a controlled arc.",
+      "Return slowly without overstretching."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "lateral-raise-machine",
+    "name": "Lateral Raise Machine",
+    "day": null,
+    "order": null,
+    "category": "lateral_delts",
+    "primaryMuscle": "lateral_delts",
+    "secondaryMuscles": [
+      "upper_traps"
+    ],
+    "equipment": "machine",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Use a controlled range of motion.",
+      "Raise the resistance without swinging or shrugging.",
+      "Lower slowly."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "leg-press-calf-raise",
+    "name": "Leg Press Calf Raise",
+    "day": null,
+    "order": null,
+    "category": "calves",
+    "primaryMuscle": "calves",
+    "secondaryMuscles": [
+      "soleus"
+    ],
+    "equipment": "leg press",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Lower into a comfortable stretch.",
+      "Rise onto the balls of the feet.",
+      "Pause briefly at the top and lower slowly."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "machine-shoulder-press",
+    "name": "Machine Shoulder Press",
+    "day": null,
+    "order": null,
+    "category": "shoulders",
+    "primaryMuscle": "shoulders",
+    "secondaryMuscles": [
+      "triceps",
+      "front_delts"
+    ],
+    "equipment": "machine",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "one-arm-dumbbell-row",
+    "name": "One-Arm Dumbbell Row",
+    "day": null,
+    "order": null,
+    "category": "lats",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "upper_back",
+      "biceps"
+    ],
+    "equipment": "dumbbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the torso and keep the spine neutral.",
+      "Pull the resistance toward the torso while driving the elbows back.",
+      "Lower the resistance under control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "overhead-dumbbell-triceps-extension",
+    "name": "Overhead Dumbbell Triceps Extension",
+    "day": null,
+    "order": null,
+    "category": "triceps",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": [
+      "long_head_triceps"
+    ],
+    "equipment": "dumbbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "push-up-plus",
+    "name": "Push-Up Plus",
+    "day": null,
+    "order": null,
+    "category": "serratus",
+    "primaryMuscle": "serratus",
+    "secondaryMuscles": [
+      "chest",
+      "front_delts"
+    ],
+    "equipment": "bodyweight",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the torso stable.",
+      "Reach or protract the shoulder blades through a controlled range.",
+      "Return without rotating the torso."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "reverse-crunch",
+    "name": "Reverse Crunch",
+    "day": null,
+    "order": null,
+    "category": "abs",
+    "primaryMuscle": "abs",
+    "secondaryMuscles": [
+      "hip_flexors"
+    ],
+    "equipment": "bodyweight",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the abdomen before starting.",
+      "Move through a controlled range without momentum.",
+      "Return slowly while maintaining trunk control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "reverse-dumbbell-curl",
+    "name": "Reverse Dumbbell Curl",
+    "day": null,
+    "order": null,
+    "category": "forearms",
+    "primaryMuscle": "forearms",
+    "secondaryMuscles": [
+      "brachioradialis",
+      "biceps"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the elbows controlled and avoid swinging.",
+      "Curl the resistance through a comfortable range.",
+      "Lower slowly and maintain tension."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "reverse-dumbbell-fly",
+    "name": "Reverse Dumbbell Fly",
+    "day": null,
+    "order": null,
+    "category": "rear_delts",
+    "primaryMuscle": "rear_delts",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep a slight bend in the elbows.",
+      "Move the arms through a controlled arc.",
+      "Return slowly without overstretching."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "reverse-ez-bar-curl",
+    "name": "Reverse EZ-Bar Curl",
+    "day": null,
+    "order": null,
+    "category": "forearms",
+    "primaryMuscle": "forearms",
+    "secondaryMuscles": [
+      "brachioradialis",
+      "biceps"
+    ],
+    "equipment": "ez bar",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the elbows controlled and avoid swinging.",
+      "Curl the resistance through a comfortable range.",
+      "Lower slowly and maintain tension."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "reverse-pec-deck",
+    "name": "Reverse Pec Deck",
+    "day": null,
+    "order": null,
+    "category": "rear_delts",
+    "primaryMuscle": "rear_delts",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "machine",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep a slight bend in the elbows.",
+      "Move the arms through a controlled arc.",
+      "Return slowly without overstretching."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "rope-hammer-curl",
+    "name": "Rope Hammer Curl",
+    "day": null,
+    "order": null,
+    "category": "brachialis",
+    "primaryMuscle": "brachialis",
+    "secondaryMuscles": [
+      "biceps",
+      "forearms"
+    ],
+    "equipment": "cable rope",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the elbows controlled and avoid swinging.",
+      "Curl the resistance through a comfortable range.",
+      "Lower slowly and maintain tension."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "single-arm-dumbbell-row",
+    "name": "Single-Arm Dumbbell Row",
+    "day": null,
+    "order": null,
+    "category": "lats",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "upper_back",
+      "biceps"
+    ],
+    "equipment": "dumbbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the torso and keep the spine neutral.",
+      "Pull the resistance toward the torso while driving the elbows back.",
+      "Lower the resistance under control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "single-arm-lat-pulldown",
+    "name": "Single-Arm Lat Pulldown",
+    "day": null,
+    "order": null,
+    "category": "lats",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "serratus"
+    ],
+    "equipment": "cable",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set the body in a stable position.",
+      "Pull through the elbows while keeping the torso controlled.",
+      "Return slowly to the starting position."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "smith-machine-incline-press",
+    "name": "Smith Machine Incline Press",
+    "day": null,
+    "order": null,
+    "category": "upper_chest",
+    "primaryMuscle": "upper_chest",
+    "secondaryMuscles": [
+      "front_delts",
+      "triceps"
+    ],
+    "equipment": "smith machine",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "spanish-squat",
+    "name": "Spanish Squat",
+    "day": null,
+    "order": null,
+    "category": "quads",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "resistance band",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the trunk and keep the feet stable.",
+      "Lower under control while the knees track over the feet.",
+      "Drive through the floor to return to standing."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "standing-barbell-overhead-press",
+    "name": "Standing Barbell Overhead Press",
+    "day": null,
+    "order": null,
+    "category": "shoulders",
+    "primaryMuscle": "shoulders",
+    "secondaryMuscles": [
+      "triceps",
+      "upper_chest"
+    ],
+    "equipment": "barbell",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Set up with a stable stance and neutral spine.",
+      "Perform the pressing movement under control.",
+      "Return to the starting position without losing control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "standing-dumbbell-curl",
+    "name": "Standing Dumbbell Curl",
+    "day": null,
+    "order": null,
+    "category": "biceps",
+    "primaryMuscle": "biceps",
+    "secondaryMuscles": [
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": "dumbbells",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Keep the elbows controlled and avoid swinging.",
+      "Curl the resistance through a comfortable range.",
+      "Lower slowly and maintain tension."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  },
+  {
+    "id": "weighted-crunch",
+    "name": "Weighted Crunch",
+    "day": null,
+    "order": null,
+    "category": "abs",
+    "primaryMuscle": "abs",
+    "secondaryMuscles": [
+      "rectus_abdominis"
+    ],
+    "equipment": "plate",
+    "sets": 2,
+    "repRange": "8-15",
+    "instructions": [
+      "Brace the abdomen before starting.",
+      "Move through a controlled range without momentum.",
+      "Return slowly while maintaining trunk control."
+    ],
+    "gymAvailability": "alternative",
+    "equipmentNote": "Alternative movement included so the user can continue when the primary exercise or machine is unavailable.",
+    "alternatives": []
+  }
+]

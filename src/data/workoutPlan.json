@@ -1,0 +1,145 @@
+{
+  "program": {
+    "id": "lean-physique-builder-5-day",
+    "name": "Lean Physique Builder — 5 Day Specialization",
+    "version": "1.0",
+    "daysPerWeek": 5,
+    "restDays": [
+      4,
+      7
+    ],
+    "goal": "Balanced hypertrophy with extra attention to shoulders, upper back, lats, upper chest, arms, forearms and serratus while maintaining complete lower-body development.",
+    "notes": [
+      "Keep at least one full rest day after the first three training days.",
+      "Most working sets should finish with roughly 1–3 reps in reserve.",
+      "When all sets reach the top of the prescribed rep range with good form, increase load modestly on the next session.",
+      "Warm-up sets are not counted in the listed working sets."
+    ]
+  },
+  "days": [
+    {
+      "day": 1,
+      "name": "Upper Chest + Shoulders + Serratus + Triceps",
+      "shortName": "Upper Push",
+      "focus": [
+        "upper_chest",
+        "shoulders",
+        "serratus",
+        "triceps"
+      ],
+      "exerciseIds": [
+        "incline-barbell-bench-press",
+        "incline-dumbbell-press",
+        "low-to-high-cable-fly",
+        "seated-dumbbell-shoulder-press",
+        "dumbbell-lateral-raise",
+        "cable-y-raise",
+        "cable-serratus-punch",
+        "overhead-cable-triceps-extension",
+        "cable-triceps-pushdown"
+      ]
+    },
+    {
+      "day": 2,
+      "name": "Lats + Upper Back + Biceps + Forearms",
+      "shortName": "Back + Arms",
+      "focus": [
+        "lats",
+        "upper_back",
+        "biceps",
+        "forearms"
+      ],
+      "exerciseIds": [
+        "pull-up",
+        "lat-pulldown",
+        "single-arm-cable-lat-pulldown",
+        "chest-supported-row",
+        "seated-cable-row",
+        "face-pull",
+        "incline-dumbbell-curl",
+        "hammer-curl",
+        "reverse-curl",
+        "wrist-curl"
+      ]
+    },
+    {
+      "day": 3,
+      "name": "Quads + Calves + Abs",
+      "shortName": "Quads + Core",
+      "focus": [
+        "quads",
+        "calves",
+        "abs"
+      ],
+      "exerciseIds": [
+        "back-squat",
+        "leg-press",
+        "bulgarian-split-squat",
+        "leg-extension",
+        "standing-calf-raise",
+        "seated-calf-raise",
+        "cable-crunch",
+        "hanging-leg-raise"
+      ]
+    },
+    {
+      "day": 4,
+      "name": "Rest",
+      "shortName": "Recovery",
+      "focus": [],
+      "exerciseIds": []
+    },
+    {
+      "day": 5,
+      "name": "Upper Chest + Back + Shoulders + Arms",
+      "shortName": "Upper Mix",
+      "focus": [
+        "upper_chest",
+        "lats",
+        "upper_back",
+        "shoulders",
+        "biceps",
+        "triceps"
+      ],
+      "exerciseIds": [
+        "incline-dumbbell-press-b",
+        "machine-chest-press",
+        "chest-supported-row-b",
+        "lat-pulldown-b",
+        "cable-lateral-raise",
+        "rear-delt-cable-fly",
+        "ez-bar-curl",
+        "triceps-pushdown-b"
+      ]
+    },
+    {
+      "day": 6,
+      "name": "Hamstrings + Quads + Calves + Abs",
+      "shortName": "Posterior + Core",
+      "focus": [
+        "hamstrings",
+        "quads",
+        "calves",
+        "abs"
+      ],
+      "exerciseIds": [
+        "romanian-deadlift",
+        "lying-leg-curl",
+        "seated-leg-curl",
+        "hack-squat",
+        "walking-lunge",
+        "seated-calf-raise-b",
+        "standing-calf-raise-b",
+        "ab-wheel-rollout",
+        "cable-crunch-b"
+      ]
+    },
+    {
+      "day": 7,
+      "name": "Rest",
+      "shortName": "Recovery",
+      "focus": [],
+      "exerciseIds": []
+    }
+  ]
+}

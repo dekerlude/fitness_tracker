@@ -1,71 +1,80 @@
-export type EquipmentType = 'bodyweight' | 'dumbbell' | 'gym';
-
-export interface UserProfile {
-  weight: number; // in kg
-  height: number; // in cm
-  goal: string; // e.g. "lean muscle / aesthetic physique"
-  split: string; // e.g. "PPL, 6 days/week"
-  equipment: EquipmentType;
-  proteinPerKg: number; // e.g. 2.0
-  customCaloriesGoal?: number;
+export interface ExerciseAlternative {
+  exerciseId: string;
+  name: string;
+  equipment: string;
 }
 
 export interface Exercise {
   id: string;
   name: string;
-  muscleGroup: 'chest' | 'shoulders' | 'triceps' | 'back' | 'biceps' | 'quads' | 'hamstrings' | 'calves' | 'rear-delts-traps' | 'core';
-  category: 'Push' | 'Pull' | 'Legs';
-  defaultSets: number;
-  repsRange: { min: number; max: number };
-  instructions: string;
-  alternativeName: string;
-  alternativeInstruction: string;
-  equipmentRequired: EquipmentType;
+  day: number;
+  order: number;
+  category: string;
+  primaryMuscle: string;
+  secondaryMuscles: string[];
+  equipment: string;
+  sets: number;
+  repRange: string;
+  instructions: string[];
+  gymAvailability?: string;
+  alternatives?: ExerciseAlternative[];
+  equipmentNote?: string;
 }
 
 export interface WorkoutDay {
-  id: string; // e.g. "push_a", "push_b", "pull_a", etc.
-  name: string; // "Push A", "Push B"
-  category: 'Push' | 'Pull' | 'Legs';
-  exercises: Exercise[];
+  day: number;
+  name: string;
+  shortName: string;
+  focus: string[];
+  exerciseIds: string[];
 }
 
-export interface LogSet {
+export interface WorkoutProgram {
   id: string;
-  weight: number;
+  name: string;
+  version: string;
+  daysPerWeek: number;
+  restDays: number[];
+  goal: string;
+  notes: string[];
+}
+
+export interface WorkoutPlan {
+  program: WorkoutProgram;
+  days: WorkoutDay[];
+}
+
+// Workout History Types
+export interface CompletedSet {
+  setNumber: number;
   reps: number;
-  rpe: number; // 1-10 or reps in reserve
+  weight: number;
   completed: boolean;
 }
 
-export interface ExerciseLog {
+export interface CompletedExercise {
   exerciseId: string;
-  exerciseName: string;
-  sets: LogSet[];
+  actualExerciseId: string;
+  sets: CompletedSet[];
 }
 
-export interface WorkoutLog {
-  id: string;
-  workoutDayId: string;
-  workoutDayName: string;
-  date: string; // YYYY-MM-DD
-  exercises: ExerciseLog[];
-  durationMinutes: number;
-  deload: boolean;
+export interface WorkoutHistoryEntry {
+  id: string; // unique identifier for deletion
+  date: string; // ISO string
+  workoutId: number; // day number
+  duration: number; // in seconds
+  exercises: CompletedExercise[];
 }
 
-export interface BodyLog {
-  id: string;
-  date: string; // YYYY-MM-DD
-  weight: number;
-  waist?: number;
-  chest?: number;
-  arms?: number;
-  photoUrl?: string; // Base64 or local URL for local storage
+// --- Legacy Types to prevent broken unused components ---
+export interface WorkoutLog {}
+export interface BodyLog {}
+export interface UserProfile {
+  name: string;
+  age: string;
+  height: string;
+  sex: string;
 }
+export interface LogSet {}
+export type EquipmentType = any;
 
-export interface WorkoutHistory {
-  logs: WorkoutLog[];
-  bodyLogs: BodyLog[];
-  streakCount: number;
-}
